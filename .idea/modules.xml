@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../GGM-Festival/.idea/GGM-Festival.iml" filepath="$PROJECT_DIR$/../GGM-Festival/.idea/GGM-Festival.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ggm-festival-worker.iml" filepath="$PROJECT_DIR$/.idea/ggm-festival-worker.iml" />
+    </modules>
+  </component>
+</project>

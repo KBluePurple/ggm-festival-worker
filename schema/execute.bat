@@ -1,0 +1,1 @@
+wrangler d1 execute d1 --file=.\schema\schema.sql

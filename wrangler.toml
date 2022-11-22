@@ -1,0 +1,9 @@
+name = "ggm-festival-worker"
+main = "src/index.ts"
+compatibility_date = "2022-11-21"
+
+[[ d1_databases ]]
+binding = "d1"
+database_name = "ggm-festival"
+database_id = "404b8057-dd7a-488b-b360-bd25d2f11ca9"
+preview_database_id = "404b8057-dd7a-488b-b360-bd25d2f11ca9"

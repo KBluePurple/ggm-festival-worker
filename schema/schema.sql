@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS Users;
+CREATE TABLE Users (
+    uuid VARCHAR(36) NOT NULL,
+    token VARCHAR(36) NOT NULL,
+    username TEXT NOT NULL,
+    coins INT NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
