@@ -1353,94 +1353,89 @@
       <DataType>TEXT|0s</DataType>
       <Position>2</Position>
     </column>
-    <foreign-key id="495" parent="483" name="token">
-      <ColNames>token</ColNames>
-      <RefColNames>token</RefColNames>
-      <RefTableName>Users</RefTableName>
-    </foreign-key>
-    <column id="496" parent="484" name="type">
+    <column id="495" parent="484" name="type">
       <DataType>INT|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="497" parent="484" name="name">
+    <column id="496" parent="484" name="name">
       <DataType>TEXT|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="498" parent="484" name="price">
+    <column id="497" parent="484" name="price">
       <DataType>INT|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="499" parent="485" name="value">
+    <column id="498" parent="485" name="value">
       <DataType>INT|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="500" parent="485" name="date">
+    <column id="499" parent="485" name="date">
       <DataType>DATETIME|0s</DataType>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="501" parent="485" name="from">
+    <column id="500" parent="485" name="from">
       <DataType>TEXT|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="502" parent="485" name="to">
+    <column id="501" parent="485" name="to">
       <DataType>TEXT|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="503" parent="485" name="reason">
+    <column id="502" parent="485" name="reason">
       <DataType>TEXT|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="504" parent="486" name="uuid">
+    <column id="503" parent="486" name="uuid">
       <DataType>VARCHAR(36)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="505" parent="486" name="token">
+    <column id="504" parent="486" name="token">
       <DataType>VARCHAR(36)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="506" parent="486" name="username">
+    <column id="505" parent="486" name="username">
       <DataType>TEXT|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="507" parent="486" name="coins">
+    <column id="506" parent="486" name="coins">
       <DataType>INT|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="508" parent="486" name="created_at">
+    <column id="507" parent="486" name="created_at">
       <DataType>DATETIME|0s</DataType>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <Position>5</Position>
     </column>
-    <column id="509" parent="487" name="type">
+    <column id="508" parent="487" name="type">
       <DataType>TEXT|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="510" parent="487" name="name">
+    <column id="509" parent="487" name="name">
       <DataType>TEXT|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="511" parent="487" name="tbl_name">
+    <column id="510" parent="487" name="tbl_name">
       <DataType>TEXT|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="512" parent="487" name="rootpage">
+    <column id="511" parent="487" name="rootpage">
       <DataType>INT|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="513" parent="487" name="sql">
+    <column id="512" parent="487" name="sql">
       <DataType>TEXT|0s</DataType>
       <Position>5</Position>
     </column>

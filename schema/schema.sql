@@ -1,10 +1,2 @@
-INSERT INTO Users (uuid, token, username, coins, created_at) VALUES ('c31e4d00-6b04-4a50-ab3c-bd71c32a0cdc', '34dfebe1-5ac8-41a0-9ec1-d69d4605d11f', 'test', 0, '2022-11-22 02:04:06');
-INSERT INTO Users (uuid, token, username, coins, created_at) VALUES ('f9c2ba32-b394-4931-bda7-2c59955c935f', '7e89700f-2a05-4fc6-8d96-e5c73ecedf4c', 'test', 0, '2022-11-22 02:12:23');
-INSERT INTO Users (uuid, token, username, coins, created_at) VALUES ('58fec4f4-7936-449f-a142-61dda45905df', '04a471fa-c071-40a0-b609-a01c395c7e42', 'test', 0, '2022-11-22 02:56:46');
-INSERT INTO Users (uuid, token, username, coins, created_at) VALUES ('98d65b2a-50ac-46c1-a20e-e72fddf1b432', '6bc4c6f9-e7ae-4655-8792-5065141ec020', 'test', 1001000, '2022-11-22 08:31:03');
-INSERT INTO TradeLogs (value, date, "from", "to", reason) VALUES (-100, '2022-11-22 10:26:35', '98d65b2a-50ac-46c1-a20e-e72fddf1b432', '98d65b2a-50ac-46c1-a20e-e72fddf1b432', '음료수 1컵');
-INSERT INTO TradeLogs (value, date, "from", "to", reason) VALUES (1000000, '2022-11-22 10:27:08', '98d65b2a-50ac-46c1-a20e-e72fddf1b432', '98d65b2a-50ac-46c1-a20e-e72fddf1b432', '');
-INSERT INTO TradeLogs (value, date, "from", "to", reason) VALUES (100, '2022-11-22 10:28:18', '98d65b2a-50ac-46c1-a20e-e72fddf1b432', '98d65b2a-50ac-46c1-a20e-e72fddf1b432', '내맘');
-INSERT INTO Products (type, name, price) VALUES (0, '입장 기념 지급', 100);
-INSERT INTO Products (type, name, price) VALUES (1, '음료수 1컵', 100);
-INSERT INTO Managers (level, token) VALUES (5, '6bc4c6f9-e7ae-4655-8792-5065141ec020');
+INSERT INTO Managers (level, token)
+VALUES (5, 'fc9bee1f-41b1-46cc-843c-f6419f831004');
