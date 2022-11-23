@@ -6,7 +6,7 @@ export interface Env {
 
 async function handleGet(pathname: string, request: Request, d1: D1Database, ctx: ExecutionContext): Promise<Response> {
     switch (pathname) {
-        case "/events":
+        case "/ggm-events":
             const events = await d1.prepare("SELECT * FROM Events WHERE current is 1").all();
             return new Response(JSON.stringify(events.results![0]));
         case "/rankings":
